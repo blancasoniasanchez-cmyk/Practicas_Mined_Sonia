@@ -1,17 +1,89 @@
 
-/** seleccionado por clase (.) */
-.preparation-time{
-    background-color: #f3e5d8;
-    padding: 1rem;
+/** selector universal */
+*{
+    margen: 0;
+    relleno: 0;
+    box-size: border-box;
 }
-
+ 
+cuerpo{
+    color de fondo: #f3e5d8;
+    relleno: 3rem;
+}
+ 
+.recipiente{
+    color de fondo: #fff;
+    relleno: 2rem;
+    ancho máximo: 70%;
+    margen: 0 automático;
+    radio de borde: 20px;
+}
+ 
+/* ancho: 100% */
+ 
+figura img{
+    ancho máximo: 100%;
+    radio de borde: 10px;
+}
+ 
+.título{
+    margen: 1rem 0;
+    estilo de fuente: cursiva;
+}
+ 
+.párrafo{
+    margen inferior: 1rem;
+    interlineado: 1,6;
+}
+ 
+/** seleccionado por clase (.) */
+.tiempo-de-preparación{
+    color de fondo: #f3e5d8;
+    relleno: 1rem 1.5rem; /** 16px arriba, abajo, 24px izquierda, derecha */
+}
+ 
 /** seleccionando un elemento hijo */
-.preparation-time h3{
+.tiempo-de-preparación h3{
     color: #752c49;
 }
-
-/** seleccionado por ID (#) 
-#time{
-
+ 
+/** aplicando los mismos estilos para los siguientes contenedores */
+.ingredientes-del-contenedor, .instrucciones-del-contenedor, .nutrición-del-contenedor{
+    margen superior: 1rem;
+    relleno: 1rem;
+}
+ 
+.subtitular{
+    color: #844631;
+    tamaño de fuente: 1,3rem;
+    relleno inferior: .5rem;
+}
+ 
+/** agregando espacio entre líneas en las listas */
+.container-ingredients ul, .container-instructions ol{
+    interlineado: 1,6;
+}
+ 
+mesa{
+    ancho: 100%;
+    colapso de frontera: colapso;
+}
+ 
+tr{
+    borde inferior: 1px sólido #6B6B6B;
+}
+ 
+td{
+    relleno: .5rem; /** .5rem equivale a 8 píxeles */
+}
+ 
+.celda{
+    color: #844631;
+    peso de fuente: negrita; /** agregando negrita al texto */
+}
+ 
+/** seleccionado por ID (#)
+#tiempo{
+ 
 }
 */
